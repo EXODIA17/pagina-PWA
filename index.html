@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="manifest" href="manifest.json"> <!-- Inclusión del manifest.json -->
+  <script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+    }
+</script>
+
+  <title>Mi Página PWA</title>
+</head>
+
+<body>
+  <header>
+    <h1>Mi Página PWA</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Fotos</a></li>
+      <li><a href="#">Información</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </nav>
+
+  <div class="contenido">
+    <div class="secciones">
+      <div class="articulos">
+        <div>
+          <h1>
+            Las PWAs combinan lo mejor de las aplicaciones web y
+            nativas, ofreciendo una experiencia de usuario rápida,
+            confiable y atractiva. Además, eliminan la necesidad de
+            descargar e instalar aplicaciones desde una tienda de
+            aplicaciones, lo que las hace más accesibles y fáciles de usar.
+          </h1>
+        </div>
+        <div> <img src="img/images.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Agregar el script JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

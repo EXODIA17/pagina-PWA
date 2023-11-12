@@ -1,0 +1,52 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos básicos del cuerpo de la página con fondo */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /* Estilos para la navegación */
+  nav {
+    background-color: #333;
+  }
+  
+  /* Estilos para la lista de navegación */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+  }
+  
+  /* Estilos para los elementos de la lista de navegación */
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para los enlaces de navegación al pasar el ratón sobre ellos */
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
